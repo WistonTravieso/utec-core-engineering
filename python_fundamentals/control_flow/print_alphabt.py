@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-a =""
+a = ""
 for code in range(ord("a"), ord("z") + 1):
     char = chr(code)
-    if chr != "e" and chr != "q":
+    if char != "e" and char != "q":
         a += char
 
 print(a)
