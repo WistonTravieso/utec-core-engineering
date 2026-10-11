@@ -6,4 +6,4 @@ for code in range(ord("a"), ord("z") + 1):
     if char != "e" and char != "q":
         a += char
 
-print(a)
+print("{}".format(a))
