@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
+
 def uppercase(str):
+    result = ""
     for c in str:
         if ord('a') <= ord(c) <= ord('z'):
-            print(chr(ord(c) - 32), end='')
+            result += chr(ord(c) - 32)
         else:
-            print(c, end='')
-
-
-print(uppercase('Hello World!'))  # HELLO WORLD!
+            result += c
+    print(result)
