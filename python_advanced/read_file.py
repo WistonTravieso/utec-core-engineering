@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-""" Módulo que contiene la función read_file para leer un archivo de texto y mostrar su contenido en la consola."""
+""" Módulo que contiene la función read_file para leer un archivo de texto"""
+
 
 def read_file(filename=""):
     """Lee un archivo de texto y muestra su contenido en la consola."""
