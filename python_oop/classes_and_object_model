@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+
+>>> number = 42
+>>> text = "hello"
+>>> numbers =[1, 2, 3]
+>>> type(number)
+<class 'int'>
+>>> type(numbers)
+<class 'list'>
+>>> type(text)
+<class 'str'>
+>>> id(number)
+137900794971664
+>>> another_number = 42
+>>> id(another_number)
+137900794971664
+>>> id(number)
+137900794971664
+>>> id(number)
+137900794971664
+>>> dir(text)
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>>> text.upper()
+'HELLO'
+>>> text.replace("h", "H")
+'Hello'
+>>> list_a =[1, 2]
+>>> list_b =[1, 2]
+>>> id(list_a)
+137900792387584
+>>> id(list_b)
+137900792605440
+>>> 
