@@ -26,6 +26,10 @@ class Square:
         """Imprime el cuadrado con el caracter #."""
         print(self)
 
+    def area(self):
+        """Calcula el área del cuadrado."""
+        return self.__size ** 2
+
     @property
     def size(self):
 
