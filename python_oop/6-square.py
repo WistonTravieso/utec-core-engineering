@@ -23,11 +23,12 @@ class Square:
         return "\n".join(lines)
 
     def my_print(self):
-        """Imprimre el cuadrado con el caracter #."""
+        """Imprime el cuadrado con el caracter #."""
         print(self)
 
     @property
     def size(self):
+
         """Obtiene el tamaño del cuadrado."""
         return self.__size
 
@@ -39,8 +40,10 @@ class Square:
         if value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
+
     @property
     def position(self):
+
         """Obtiene la posición del cuadrado."""
         return self.__position
 
