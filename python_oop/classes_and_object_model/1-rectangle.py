@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Módulo que define clase Rectangle."""
 
+
 class Rectangle:
     """Representa un rectángulo."""
 
