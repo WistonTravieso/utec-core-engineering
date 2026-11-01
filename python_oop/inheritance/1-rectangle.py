@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Módulo que define clase Rectangle."""
 
+
 class Rectangle(BaseGeometry):
     """Clase Rectangle que hereda de BaseGeometry."""
 
