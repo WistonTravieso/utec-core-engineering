@@ -16,6 +16,6 @@ class Square(Rectangle):
         """Calcula el área del cuadrado."""
         return self.__size ** 2
     
-    def__str__(self):
+    def __str__(self):
         """Devuelve una representación en cadena del cuadrado."""
         return f"[Square] {self.__size}/{self.__size}"
